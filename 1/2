@@ -1,0 +1,5 @@
+a = raw_input()
+b = raw_input()
+
+res = hex(int(a,16) ^ int(b,16))
+print(res[2:])
